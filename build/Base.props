@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <VersionPrefix>0.5.14</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <Authors>dungjk</Authors>
+    <Company>dungjk</Company>
+    <Copyright>Copyright © dungjk 2022</Copyright>
+    <PackageProjectUrl>https://github.com/dungjk/Svg.SkiaSharp</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/dungjk/Svg.SkiaSharp/main/icon/SvgToPng.png</PackageIconUrl>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+</Project>

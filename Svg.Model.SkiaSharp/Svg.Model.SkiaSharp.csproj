@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>True</IsPackable>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);USE_SKIASHARP</DefineConstants>
+  </PropertyGroup>
+
+  <Import Project="..\build\Base.props" />
+  <Import Project="..\build\SourceLink.props" />
+  <Import Project="..\build\SignAssembly.props" />
+  <Import Project="..\build\SkiaSharp.props" />
+  <Import Project="..\build\SkiaSharp.HarfBuzz.props" />
+
+  <PropertyGroup>
+    <Description>An SVG rendering object model library.</Description>
+    <PackageId>Svg.Model.SkiaSharp</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>svg;vector graphics;rendering;2d;graphics;geometry;shapes;skiasharp;skia;model</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Svg.Custom" Version="0.5.14" />
+  </ItemGroup>
+
+</Project>

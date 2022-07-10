@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SvgToPng": {
+      "commandName": "Project",
+      "workingDirectory": "./"
+    }
+  }
+}
