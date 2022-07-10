@@ -273,5 +273,5 @@ __pycache__/
 
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore
 
-./SvgToPng/**/*.png
-./SvgToPng/**/*.pdf
+SvgToPng/**/*.png
+SvgToPng/**/*.pdf
