@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>True</IsPackable>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <Import Project="..\build\Base.props" />
+  <Import Project="..\build\SourceLink.props" />
+  <Import Project="..\build\SignAssembly.props" />
+  <Import Project="..\build\SkiaSharp.props" />
+  <Import Project="..\build\SkiaSharp.HarfBuzz.props" />
+  
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);USE_SKIASHARP</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Svg.Model.SkiaSharp\Svg.Model.SkiaSharp.csproj" />
+  </ItemGroup>
+
+</Project>
