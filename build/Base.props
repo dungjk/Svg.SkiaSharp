@@ -11,6 +11,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <AnalysisLevel>latest</AnalysisLevel>
-    <LangVersion>10.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 </Project>

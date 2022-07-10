@@ -297,7 +297,7 @@ public sealed class TextDrawable : DrawableBase
 #else
                 skCanvas.DrawText(text, x, y, skPaint);
 #endif
-                width = skPaint.MeasureText(text);
+                width = Math.Max(width, skPaint.MeasureText(text));
             }
         }
         return width;
